@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.navcss{
+    background: rgb(117,9,33);
+    background: linear-gradient(90deg, rgba(117,9,33,1) 0%, rgba(170,13,23,1) 35%);
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.figure-caption{
+    font-size: 11px !important;
+    font-weight: bold;
+    color: #000000 !important;
+}
