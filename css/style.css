@@ -21,3 +21,74 @@
     font-weight: bold;
     color: #000000 !important;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+ul.social_icon_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+  ul.social_icon_set li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Font Awesome icons */
+  a.social_i {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 10px;
+    /* background: #02EDAA; */
+    /* color: #fff; */
+    margin-right: 10px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  a.social_i:hover, a.social_i:focus {
+    background: #6d8785;
+  }
+
+  .fa{
+      color: #02EDAA;
+  }
+
+ .justify {
+    text-align: justify;
+    color: #fff;
+  }
+  .footer-copyright{
+      color: #fff;
+  }
